@@ -1,21 +1,20 @@
 package learning;
 
 public class Main {
-
+	public static final String a = "Hello World";
+    //メインメソッド
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-        String message = "Hello World";
+      int age;
+      age = 20;
 
-        for(int i = 0;i < 10; i++) {
-    	  System.out.println(message + i);
-    	  System.out.println(message + i);
+      if(age >= 20) {
+    	  System.out.println("OK");
+        if(age >= 60){
+    	  System.out.println("老人");
         }
-
-        int score = 90;
-        if(score > 90) {
-    	  System.out.println("OK!");
-        }else {
-          System.out.println("NG!");
-        }
+      }else{
+          System.out.println("NG");
+      }
 	}
 }
